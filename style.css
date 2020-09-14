@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Helvetica;
+    src: url('font/Helvetica.ttf');
+}
+ body,p,span{
+     color: #6f7784;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+
+/* Top-header-CSS */
+.top-header-sec{
+    background-color:#035488;
+}
+
+ul.top-icon{
+    margin-bottom: 0px;
+}
+ul.top-icon li{
+    display: inline-block;
+    list-style: none;
+    border-right: 1px solid #3576A0;
+    
+}
+ul.top-icon li a{
+    display: block;
+    padding: 3px 8px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  
+}
+ul.top-icon li a:hover{
+    color: gray;
+}
+ul.top-icon li:last-child{
+    border-right: none;
+}
+ul.top-icon li:first-child{
+    border-left: 1px solid #3576A0;;
+}
+
+
+
+/* logo-header-start */
+.logo-header{
+    background-color: #0369AB;
+    padding: 17px 0px 0px 0px;
+    border-bottom: 4px solid #035488;
+}
+
+.logo-here a img {
+    width: 85px;
+    margin-top: 10px;
+    
+}
+
+.logo-title  h6 {
+    margin-left: 17px;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #fff;
+    border-bottom: 1px solid #FEBB31;
+    padding-bottom: 9px;
+}
+.logo-title span {
+    margin-left: 18px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.right-title-here{
+   margin-top: 40px;
+}
+    
+
+.right-title-here p.lol{
+    /* margin-left: 10px; */
+    font-size: 15px;
+    color: yellow;
+
+}
+
+.right-title-here.text-right span {
+    font-size: 20px;
+    color: #ddd;
+    font-weight: 500;
+}
+
+/* Main Header start */
+ul.navbar-nav.mr-auto.below-header li a {
+    color: #;
+    color: #fff;
+    font-size: 17px;
+    padding: 0px 29px 0px 11px;
+    text-transform:uppercase;
+    display:block;
+}
+
+ul.navbar-nav.mr-auto.below-header li a:hover{
+    background-color:#FEC339;
+    color: #fff;
+}
+
+li.nav-item.dropdown.babu-header ul li a{
+    color:#111;
+    padding:10px;
+    text-transform:uppercase
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.chammak-header {
+    border-top: 1px solid #ddd;
+    margin-top: 14px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.text-discriber p,{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+
+.principle-image{
+    background-color: #fff;
+}
+
+.principle-image img{
+    box-shadow:
+    0 2px 30px rgba(0,0,0,.4);
+  
+  
+}
+
+
+
+/* Notice-Board Css */
+.notice-board {
+    padding-bottom: 30px;
+    padding-top: 40px;
+    background-color:#2C4167;
+}
+
+.link-notice-left ul{}
+.link-notice-left ul li{
+    list-style: none;
+    padding-top: 5px
+}
+.link-notice-left ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.link-notice-left ul li a:hover{
+    color: #fff;
+    text-decoration:underline;
+    
+}
+
+
+.link-notice-left ul li i{
+    margin-right: 10px;
+    font-size: 21px;
+}
+
+
+/* single-completion-start */
+.single-completion{
+   padding-top: 90px;
+}
+.ador-title{
+    font-size: ;
+}
+.ceo-img-side img {
+    width: 400px;
+    height: auto;
+    box-shadow:0 2px 30px rgba(0,0,0,.4);
+}
+
+
+/* last-footer-start-CSS */
+section.footer-section {
+    margin-top: 150px;
+    background-color: #2C4167;;
+}
+
+.text-item-info {
+    margin-top: 60px;
+    
+}
+
+
+ 
+.text-item-info li i{
+   margin-right: 10px;
+ }
+ .menu-info {
+    margin-top: 43px;
+    /* padding-bottom: 30px; */
+}
+
+
+.menu-info li{
+    list-style: none;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #3C5177;
+    margin-bottom: 14px;
+}
+
+
+.menu-info li i{
+    font-size:28px;
+    color: #8ED3EF;
+}
+
+.menu-info li a{
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu-info li a:hover{
+    text-decoration: underline;
+}
+
+.this-page-title{
+    margin-top: 60px;
+}
+
+.text-white h1{
+    text-transform: uppercase;
+}
+
+.menu-info li i{
+    margin-right:10px;
+}
+
+
+ul.social-info{
+    padding-left:0px;
+}
+ul.social-info.mt-5.pl-0 li {
+    display: inline-block;
+    width: 117px;
+    /* margin-bottom: 10px; */
+    margin:0px 10px 10px 0px;
+    background-color: red;
+    padding: 10px;
+}
+
+
+
+
+/* 
+Teachers Css */
+.image-item-collection{
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 0 2px 30px rgba(0,0,0,.4); */
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.image-item-collection:hover{
+    box-shadow: 0 2px 30px rgba(0,0,0,.4);s
+}
+.img-team1 
+ img {
+    width: 239px;
+    height: 250px;
+}
+
+
+
+/* Admission CSS */
+a{
+    text-decoration: none;
+}
+form.form-sec {
+    margin: 0px 20px 0px 28px;
+    /* margin-top: 38px; */
+    padding-top: 24px;
+    text-align: right;
+    padding-bottom: 44px;
+}
+label{
+    color: #fff;
+    margin-right: 10px;
+    
+}
+
+input[type="text"] {
+    width: 501px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+input[type="datetime-local"] {
+    width: 501px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+select.custom-select {
+    width: 501px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+input[type="email"] {
+    width: 501px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+}
+
+input[type="password"] {
+    width: 501px;
+    padding: 5px;
+    outline: none;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+span.text-left {
+    margin-right: 282px;
+}
+
+span.gender-item {
+    margin-right: 294px;
+}
+
+.fixed-item{
+    border-top:1px solid #fff;
+}
+
+
+h3{
+    text-transform: uppercase;
+}
+
+img.full-set {
+    width: 222px;
+    height: auto;
+}
+/* .img-team1 
+ img {
+    /* width: 239px; */
+    height: 250px;
+} */
+/* ABout-css */
+.school-image{
+    background-color: #fff;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.full-image-text{
+    text-align: justify;
+}
+
+.tag-title h3{
+    text-transform: uppercase;
+}
+
+.tag-title h3{
+    text-transform: uppercase;
+}
+
+
+
+/* ACheive-CSS */
+.image-acheive-here p{
+    text-align: justify;
+}
+
+.video-caller {
+    box-shadow: -webkit-box-shadow: 4px 10px 15px 0px rgba(232,216,232,0.85);
+    -moz-box-shadow: 4px 10px 15px 0px rgba(232,216,232,0.85);
+    box-shadow: 4px 10px 15px 0px rgba(232,216,232,0.85);
+    padding: 10px;
+    margin-bottom:10px;
+}
+
+
+/* contact-item */
+.contact-item{
+    padding-top: 150px;
+}
+
+.title-sec p,span {
+    line-height: 32px;
+    color: #fff;
+}
+
+.text-tips p{
+    line-height: 36px;
+    color: #fff;
+}
+.clear-tips{
+    box-shadow: 10px 10px 5px #ddd;
+} 
